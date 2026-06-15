@@ -149,7 +149,7 @@ export default function App() {
           <div className="flex items-center gap-3">
             {/* Minimalist Cosmos Icon */}
             <Compass className="h-5 w-5 text-neutral-900 flex-shrink-0 animate-spin-slow" />
-            <span className="font-serif text-lg tracking-tight font-medium">To-Do List</span>
+            <span className="font-serif text-lg tracking-tight font-medium">ടുഡു</span>
           </div>
 
           <div className="flex items-center gap-4">
@@ -198,7 +198,7 @@ export default function App() {
                 </span>
                 
                 <h1 className="font-serif text-3xl md:text-4xl text-neutral-900 font-light tracking-tight leading-tight">
-                  Welcome to Crate, <span className="font-normal italic">{user.user_metadata?.full_name || 'Curator'}</span>
+                  Welcome to ടുഡു, <span className="font-normal italic">{user.user_metadata?.full_name || 'Curator'}</span>
                 </h1>
                 
                 <p className="text-neutral-500 text-sm mt-2 max-w-xl font-light">
@@ -232,7 +232,7 @@ export default function App() {
       {/* Aesthetic design credit footer */}
       <footer className="max-w-4xl mx-auto px-6 py-16 border-t border-neutral-200/30 text-center font-mono text-[10px] text-neutral-400 uppercase tracking-widest">
         <div id="footer-logo" className="text-neutral-900 font-serif lowercase text-base mb-2 font-semibold">task curation</div>
-        <p className="font-light">curated by kaizen solutions · local development mode</p>
+        <p className="font-light">Made with ❤️ by Anirudh </p>
       </footer>
 
     </div>
