@@ -62,7 +62,8 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
       >
         <div id="status-header" className="flex justify-between items-center mb-10 font-mono text-[11px] tracking-wide uppercase text-neutral-400">
           <span className="flex items-center gap-1.5">
-          <span></span>
+            <span></span>
+          </span>
         </div>
 
         <div className="mb-8">
