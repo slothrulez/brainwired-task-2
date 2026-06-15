@@ -123,7 +123,7 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
             <input
               id="email"
               type="email"
-              placeholder="ടുഡു@agmail.com"
+              placeholder="ടുഡു@gmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full bg-neutral-50 border border-neutral-200 focus:border-neutral-900 rounded-full px-4 py-2.5 text-sm text-neutral-900 outline-none transition-colors placeholder:text-neutral-400"
