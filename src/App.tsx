@@ -231,7 +231,7 @@ export default function App() {
 
       {/* Aesthetic design credit footer */}
       <footer className="max-w-4xl mx-auto px-6 py-16 border-t border-neutral-200/30 text-center font-mono text-[10px] text-neutral-400 uppercase tracking-widest">
-        <div id="footer-logo" className="text-neutral-900 font-serif lowercase text-base mb-2 font-semibold">task curation</div>
+        <div id="footer-logo" className="text-neutral-900 font-serif lowercase text-base mb-2 font-semibold">ടുഡു Today</div>
         <p className="font-light">Made with ❤️ by Anirudh </p>
       </footer>
 
