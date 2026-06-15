@@ -62,20 +62,17 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
       >
         <div id="status-header" className="flex justify-between items-center mb-10 font-mono text-[11px] tracking-wide uppercase text-neutral-400">
           <span className="flex items-center gap-1.5">
-            <span className={`h-1.5 w-1.5 rounded-full ${isSupabaseConfigured ? 'bg-emerald-500 animate-pulse' : 'bg-amber-400'}`}></span>
-            {isSupabaseConfigured ? 'Live Database' : 'Sandbox (Offline)'}
-          </span>
-          <span>CURATION v1.0</span>
+          <span></span>
         </div>
 
         <div className="mb-8">
           <h2 className="font-serif text-3xl font-normal tracking-tight text-neutral-900 leading-tight mb-2">
-            {isSignUp ? 'Create Workspace' : 'Sign in to Crate'}
+            {isSignUp ? 'Create Workspace' : 'Sign in to ടുഡു'}
           </h2>
           <p className="text-neutral-500 text-sm">
             {isSignUp 
               ? 'Join us to organize, prioritize, and structure your daily notes and work.' 
-              : 'Unlock your elegant to-do collection and progress telemetry.'}
+              : 'Unlock your elegant to-do collection and take control of your day.'}
           </p>
         </div>
 
@@ -125,7 +122,7 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
             <input
               id="email"
               type="email"
-              placeholder="curator@cosmos.so"
+              placeholder="ടുഡു@agmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full bg-neutral-50 border border-neutral-200 focus:border-neutral-900 rounded-full px-4 py-2.5 text-sm text-neutral-900 outline-none transition-colors placeholder:text-neutral-400"
